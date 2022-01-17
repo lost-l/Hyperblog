@@ -6,11 +6,29 @@ body {
 
 .container {
   width: 70%;
-  padding: 1em;
+  padding: 0;
   border: 1px solid #000;
   margin: 0 auto;
 }
 
 .container h1 {
   font-size: 20px;
+}
+
+header.cabecera {
+  background: #33a;
+  color: #fff;
+  margin: 0;
+  box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  padding: 0.5em;
+}
+
+header.cabecera span#tagline {
+  font-weight: normal;
+  font-size: 0.8em;
+  padding: 0 0 0 1em;
+}
+.post {
+  padding: 1em;
 }
